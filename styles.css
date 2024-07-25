@@ -1,0 +1,121 @@
+/* Animasi mengembang pada header h1 */
+@keyframes grow {
+    0% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+  }
+  
+  header h1 {
+    font-family: 'Rubik Mono One', sans-serif; /* Menggunakan font Rubik Mono One */
+    animation: grow 2s ease-in-out infinite;
+  }
+  div h1 {
+    font-family: 'Rubik Mono One', sans-serif; /* Menggunakan font Rubik Mono One */
+    animation: grow 2s ease-in-out infinite;
+  }
+  
+  /* Efek scroll halus */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Gaya lainnya */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background: url('header-bg.jpg') no-repeat center center/cover;
+    min-height: 300px;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .bg-custom {
+    background-color: #66A5AD !important;
+  }
+  
+  .bg-header {
+    background-color: #07575B !important;
+  }
+  
+  .bg-main-content {
+    background-color: #003B46; /* Warna latar belakang sebagai fallback */
+    /* background-image: url('background.png'); Ganti dengan path ke gambar latar belakang */
+    background-size: cover; /* Memastikan gambar menutupi seluruh area */
+    background-position: center; /* Menjaga gambar tetap di tengah */
+    background-repeat: no-repeat; /* Mencegah gambar diulang */
+    padding: 30px; /* Opsional: Menambahkan padding untuk jarak */
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Mengatur border radius */
+    overflow: hidden; /* Memastikan isi card tidak melampaui border radius */
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .bg-image {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+  
+  .card-img {
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    transition: background-color 0.2s;
+  }
+
+/* Gaya untuk bagian Donasi */
+.bg-donasi {
+    background-color: #003B46;
+    color: white; /* Memastikan teks berwarna putih untuk kontras yang baik */
+    padding: 40px; /* Menambahkan padding untuk jarak di dalam kontainer */
+    border-radius: 8px; /* Menambahkan border radius jika diinginkan */
+  }
+  
+  .container h2, .container h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  
+  
